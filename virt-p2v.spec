@@ -19,6 +19,9 @@ BuildRequires:	perl-modules
 BuildRequires:	pkgconfig
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
+# binary image is xz-compressed, so debuginfo cannot be extracted
+%define		_enable_debug_packages	0
+
 %description
 Virt-p2v is a GUI interface to convert a physical machine to run as
 virtual machine on KVM.
