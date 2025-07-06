@@ -1,12 +1,12 @@
 Summary:	GUI interface to convert a physical machine to run as virtual machine on KVM
 Summary(pl.UTF-8):	Graficzny interfejs do konwersji maszyny fizycznej na maszynę wirtualną KVM
 Name:		virt-p2v
-Version:	1.42.3
+Version:	1.42.4
 Release:	1
 License:	GPL v2+
 Group:		Applications/System
 Source0:	https://download.libguestfs.org/virt-p2v/%{name}-%{version}.tar.gz
-# Source0-md5:	549a1c253a05ba03e42800cdd5126120
+# Source0-md5:	fc74978dd47de4a7a3db56528fe465de
 URL:		https://libguestfs.org/
 BuildRequires:	bash-completion-devel >= 1:2.0
 BuildRequires:	dbus-devel
